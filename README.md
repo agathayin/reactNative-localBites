@@ -1,6 +1,6 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an React Native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). It is built with React Native, Expo, Firestore, and other dependencies.
 
 ## Get started
 
@@ -25,26 +25,28 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Dependencies:
 
-When you're ready, run:
+- Expo
+- React
+- React Native
+- React Native Paper
+- Expo Vector Icons
 
-```bash
-npm run reset-project
-```
+## Structure:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- app: layout and index. It should be used for routes and global UI layout.
+- assets: fonts and images
+- src: components, data, and screens.
 
-## Learn more
+## Learning notes
 
-To learn more about developing your project with Expo, look at the following resources:
+[Expo documentation](https://docs.expo.dev/)  
+Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+[Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)  
+Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[Firebase / Firestore](https://firebase.google.com/docs/web/setup)  
+Create new project in Firebase console (see [set up guide](https://firebase.google.com/docs/firestore/quickstart)). Save the project info such as api key, project info, and extra in firebaseConfig.ts. Use `firebase/firestore` to init get, add, or delete data. All related codes are in Home.tsx.  
+more info in [firestore doc](https://firebase.google.com/docs/firestore/quickstart)
