@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# React Native: Local Bites
 
 This is an React Native project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). It is built with React Native, Expo, Firestore, and other dependencies.
 
